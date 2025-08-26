@@ -1,0 +1,15 @@
+name: "Telegram Judge Bot"
+version: "1.0.0"
+slug: "telegram_judge"
+description: "Telegram бот-суддя, що аналізує чати за допомогою Mistral AI"
+startup: application
+boot: auto
+arch:
+  - amd64
+  - arm64
+options:
+  TELEGRAM_TOKEN: ""
+  MISTRAL_API_KEY: ""
+schema:
+  TELEGRAM_TOKEN: str
+  MISTRAL_API_KEY: str
